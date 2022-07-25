@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "es6",
+    "moduleResolution": "node16",
+
+    /* JS support */
+    "allowJs": true,
+    "outDir": "./built",
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": [
+    "./src/**/*",
+    "test/**/*.ts",
+    "test/**/*.js"
+  ]
+}
