@@ -1,6 +1,6 @@
 import {describe} from 'mocha';
 import * as assert from 'assert';
-import * as getPostTitles from '../src/get_post_service.js';
+import * as getPostTitles from '../get_post_service.js';
 import * as td from 'testdouble';
 
 process.env.NODE_ENV = 'test';
@@ -14,7 +14,7 @@ describe('validate EID', () => {
   let mock_json_placeholder_rest: any;
 
   beforeEach(async () => {
-    mock_json_placeholder_rest = await td.replaceEsm('../src/services/json-placeholder-rest.js');
+    mock_json_placeholder_rest = await td.replaceEsm('../services/json-placeholder-rest.js');
   });
 
   afterEach(function () {

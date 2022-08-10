@@ -1,7 +1,7 @@
 process.env.NODE_ENV = 'test';
 
 import assert from 'assert';
-import * as permissions from '../src/js_dummy_service.js';
+import * as permissions from '../js_dummy_service.js';
 
 describe('helper matching', function () {
   it('should return a helper something', function () {
