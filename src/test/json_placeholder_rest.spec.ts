@@ -1,6 +1,6 @@
 import {describe} from 'mocha';
 import * as assert from 'assert';
-import * as getPostTitles from '../src/get_post_service.js';
+import * as getPostTitles from '../get_post_service.js';
 import * as td from 'testdouble';
 
 process.env.NODE_ENV = 'test';
