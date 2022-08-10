@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "local": "NODE_ENV=local nodemon --esm ./src/bin/www.ts",
-    "test": "NODE_OPTIONS='--loader=ts-node/esm --loader=testdouble'mocha test/*.js src/test/*.spec.ts --timeout 3000"
+    "test": "NODE_OPTIONS='--loader=ts-node/esm --loader=testdouble' mocha src/test/*.js src/test/*.spec.ts --timeout 3000"
   },
   "dependencies": {
     "@types/cors": "^2.8.12",
