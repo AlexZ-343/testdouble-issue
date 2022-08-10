@@ -14,7 +14,7 @@ describe('validate EID', () => {
   let mock_json_placeholder_rest: any;
 
   beforeEach(async () => {
-    mock_json_placeholder_rest = await td.replaceEsm('../src/services/json-placeholder-rest.js');
+    mock_json_placeholder_rest = await td.replaceEsm('../services/json-placeholder-rest.js');
   });
 
   afterEach(function () {
